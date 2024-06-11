@@ -1,0 +1,110 @@
+.home {
+  height: 100vh;
+  background-color: #223a5f;
+  margin: auto;
+  padding: 40px;
+}
+.sub-home {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+}
+.scoreboard {
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.score-card {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 120px;
+  color: #223a5f;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.image-icon {
+  height: 130px;
+}
+.game-butns {
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.game-butuns-started {
+  width: 350px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.control {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.game-butn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.rulrs-butn {
+  height: 35px;
+  color: #223a5f;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  width: 80px;
+  align-self: flex-end;
+}
+.rules-img {
+  height: 500px;
+}
+.popup {
+  background-color: white;
+  padding: 20px;
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.popup button {
+  align-self: flex-end;
+}
+.choice-icon {
+  height: 130px;
+}
+.small-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.play-again-btn {
+  height: 35px;
+  border-radius: 10px;
+  width: 120px;
+  background-color: white;
+  border: none;
+  color: #223a5f;
+  font-weight: bold;
+  cursor: pointer;
+}
+.scc {
+  font-family: Roboto;
+  font-size: 23px;
+}
